@@ -45,11 +45,11 @@ public class Main {
         }
         System.out.println("Задача 5");
         //Возраст ребенка
-        int ageChildren = 4; // Можно задать любой возраст
+        int ageChildren = 14; // Можно задать любой возраст
         // Сделаем через boolean
         boolean tooYoung = ageChildren < 5;
-        boolean middleAge = ageChildren >= 5 && ageChildren < 14;
-        boolean oldMen = ageChildren > 14;
+        boolean middleAge = ageChildren >= 5 && ageChildren <14;
+        boolean oldMen = ageChildren  >= 14;
         if (tooYoung) {
             System.out.println("Если возраст ребенка равен " + ageChildren + " , то ему нельзя кататься на аттракционе ");
         } else if (middleAge) {
